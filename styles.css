@@ -154,7 +154,7 @@ img {
   transform: scaleX(1);
 }
 
-.section-label {
+.reveal-enabled .section-label {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -166,7 +166,7 @@ img {
     transform 650ms var(--ease-soft);
 }
 
-.section.is-visible .section-label {
+.reveal-enabled .section.is-visible .section-label {
   opacity: 1;
   transform: translateY(0);
   transition-delay: 130ms;
@@ -193,7 +193,7 @@ img {
   gap: 64px 8px;
 }
 
-.project-card {
+.reveal-enabled .project-card {
   display: grid;
   align-content: start;
   gap: 14px;
@@ -204,31 +204,31 @@ img {
     transform 780ms var(--ease-soft);
 }
 
-.is-visible .project-card {
+.reveal-enabled .is-visible .project-card {
   opacity: 1;
   transform: translateY(0);
 }
 
-.is-visible .project-card:nth-child(1) {
+.reveal-enabled .is-visible .project-card:nth-child(1) {
   transition-delay: 120ms;
 }
 
-.is-visible .project-card:nth-child(2) {
+.reveal-enabled .is-visible .project-card:nth-child(2) {
   transition-delay: 200ms;
 }
 
-.is-visible .project-card:nth-child(3) {
+.reveal-enabled .is-visible .project-card:nth-child(3) {
   transition-delay: 160ms;
 }
 
-.is-visible .project-card:nth-child(4) {
+.reveal-enabled .is-visible .project-card:nth-child(4) {
   transition-delay: 240ms;
 }
 
-.project-card img,
-.service-media,
-.approach img,
-.featured-insight img {
+.reveal-enabled .project-card img,
+.reveal-enabled .service-media,
+.reveal-enabled .approach img,
+.reveal-enabled .featured-insight img {
   clip-path: inset(0 0 8% 0);
   filter: saturate(0.92);
   transform: translateY(18px) scale(1.015);
@@ -238,10 +238,10 @@ img {
     transform 850ms var(--ease-soft);
 }
 
-.is-visible .project-card img,
-.is-visible .service-media,
-.is-visible .approach img,
-.is-visible .featured-insight img {
+.reveal-enabled .is-visible .project-card img,
+.reveal-enabled .is-visible .service-media,
+.reveal-enabled .approach.is-visible img,
+.reveal-enabled .is-visible .featured-insight img {
   clip-path: inset(0);
   filter: saturate(1);
   transform: translateY(0) scale(1);
@@ -282,7 +282,7 @@ img {
   grid-column: 2;
 }
 
-.text-link {
+.reveal-enabled .text-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -301,7 +301,7 @@ img {
     transform 600ms var(--ease-soft);
 }
 
-.is-visible .text-link {
+.reveal-enabled .is-visible .text-link {
   opacity: 1;
   transform: translateY(0);
   transition-delay: 320ms;
@@ -312,7 +312,7 @@ img {
   overflow: hidden;
 }
 
-.marquee div {
+.reveal-enabled .marquee div {
   transform: translateY(18px);
   opacity: 0;
   transition:
@@ -320,7 +320,7 @@ img {
     transform 850ms var(--ease-soft);
 }
 
-.marquee.is-visible div {
+.reveal-enabled .marquee.is-visible div {
   opacity: 1;
   transform: translateY(0);
 }
@@ -342,15 +342,15 @@ img {
   letter-spacing: -0.04em;
 }
 
-.partner-list span,
-.service,
-.service-row,
-.approach article,
-.featured-insight,
-.insight-list a,
-.footer-contact,
-.footer-nav,
-.footer p {
+.reveal-enabled .partner-list span,
+.reveal-enabled .service,
+.reveal-enabled .service-row,
+.reveal-enabled .approach article,
+.reveal-enabled .featured-insight,
+.reveal-enabled .insight-list a,
+.reveal-enabled .footer-contact,
+.reveal-enabled .footer-nav,
+.reveal-enabled .footer p {
   opacity: 0;
   transform: translateY(24px);
   transition:
@@ -358,51 +358,51 @@ img {
     transform 760ms var(--ease-soft);
 }
 
-.is-visible .partner-list span,
-.is-visible .service,
-.is-visible .service-row,
-.is-visible .approach article,
-.is-visible .featured-insight,
-.is-visible .insight-list a,
-.footer.is-visible .footer-contact,
-.footer.is-visible .footer-nav,
-.footer.is-visible p {
+.reveal-enabled .is-visible .partner-list span,
+.reveal-enabled .is-visible .service,
+.reveal-enabled .is-visible .service-row,
+.reveal-enabled .approach.is-visible article,
+.reveal-enabled .is-visible .featured-insight,
+.reveal-enabled .is-visible .insight-list a,
+.reveal-enabled .footer.is-visible .footer-contact,
+.reveal-enabled .footer.is-visible .footer-nav,
+.reveal-enabled .footer.is-visible p {
   opacity: 1;
   transform: translateY(0);
 }
 
-.is-visible .partner-list span:nth-child(1),
-.is-visible .service,
-.is-visible .featured-insight,
-.footer.is-visible .footer-contact {
+.reveal-enabled .is-visible .partner-list span:nth-child(1),
+.reveal-enabled .is-visible .service,
+.reveal-enabled .is-visible .featured-insight,
+.reveal-enabled .footer.is-visible .footer-contact {
   transition-delay: 120ms;
 }
 
-.is-visible .partner-list span:nth-child(2),
-.is-visible .service-row:nth-of-type(2),
-.is-visible .approach article:nth-child(1),
-.is-visible .insight-list a:nth-child(1),
-.footer.is-visible .footer-nav {
+.reveal-enabled .is-visible .partner-list span:nth-child(2),
+.reveal-enabled .is-visible .service-row:nth-of-type(2),
+.reveal-enabled .approach.is-visible article:nth-child(1),
+.reveal-enabled .is-visible .insight-list a:nth-child(1),
+.reveal-enabled .footer.is-visible .footer-nav {
   transition-delay: 180ms;
 }
 
-.is-visible .partner-list span:nth-child(3),
-.is-visible .service-row:nth-of-type(3),
-.is-visible .approach article:nth-child(2),
-.is-visible .insight-list a:nth-child(2),
-.footer.is-visible p {
+.reveal-enabled .is-visible .partner-list span:nth-child(3),
+.reveal-enabled .is-visible .service-row:nth-of-type(3),
+.reveal-enabled .approach.is-visible article:nth-child(2),
+.reveal-enabled .is-visible .insight-list a:nth-child(2),
+.reveal-enabled .footer.is-visible p {
   transition-delay: 240ms;
 }
 
-.is-visible .partner-list span:nth-child(4),
-.is-visible .service-row:nth-of-type(4),
-.is-visible .approach article:nth-child(3),
-.is-visible .insight-list a:nth-child(3) {
+.reveal-enabled .is-visible .partner-list span:nth-child(4),
+.reveal-enabled .is-visible .service-row:nth-of-type(4),
+.reveal-enabled .approach.is-visible article:nth-child(3),
+.reveal-enabled .is-visible .insight-list a:nth-child(3) {
   transition-delay: 300ms;
 }
 
-.is-visible .partner-list span:nth-child(n + 5),
-.is-visible .service-row:nth-of-type(5) {
+.reveal-enabled .is-visible .partner-list span:nth-child(n + 5),
+.reveal-enabled .is-visible .service-row:nth-of-type(5) {
   transition-delay: 360ms;
 }
 
@@ -617,7 +617,7 @@ img {
   background: #000;
 }
 
-.footer-logo {
+.reveal-enabled .footer-logo {
   opacity: 0;
   transform: translateY(-22px);
   transition:
@@ -625,7 +625,7 @@ img {
     transform 900ms var(--ease-out);
 }
 
-.footer.is-visible .footer-logo {
+.reveal-enabled .footer.is-visible .footer-logo {
   opacity: 1;
   transform: translateY(0);
 }

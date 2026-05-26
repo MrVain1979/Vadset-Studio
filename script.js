@@ -1,3 +1,5 @@
+document.documentElement.classList.add('reveal-enabled');
+
 const revealTargets = document.querySelectorAll(
   '.reveal-block, .section, .marquee, .footer'
 );
