@@ -1,12 +1,8 @@
 {
-  "name": "fjord-digital-site",
+  "name": "vadset-studio",
   "private": true,
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
-    "build": "node -e \"console.log('Static site ready in dist')\""
-  },
-  "engines": {
-    "node": ">=20"
+    "build": "echo Static site ready"
   }
 }
