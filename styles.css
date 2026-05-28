@@ -37,7 +37,7 @@ img {
 }
 
 .topbar {
-  padding: 0 16px 18px;
+  padding: 0 4px 18px;
 }
 
 .wordmark,
@@ -48,14 +48,15 @@ img {
   color: #000;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 12.48vw;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 0.84;
-  letter-spacing: -0.093em;
+  letter-spacing: -0.072em;
   text-transform: uppercase;
   white-space: nowrap;
 }
 
 .wordmark {
+  font-size: 12.35vw;
   animation: logo-enter 900ms var(--ease-out) 120ms both;
 }
 
@@ -96,24 +97,15 @@ img {
 }
 
 .desktop-nav {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 12px;
   margin-top: 22px;
   font-size: 16px;
   font-weight: 800;
   letter-spacing: -0.05em;
   text-transform: uppercase;
-}
-
-.desktop-nav a:nth-child(2),
-.desktop-nav a:nth-child(3),
-.desktop-nav a:nth-child(4) {
-  text-align: center;
-}
-
-.desktop-nav a:last-child {
-  text-align: right;
 }
 
 .menu-button {
@@ -637,7 +629,7 @@ img {
 }
 
 .footer {
-  padding: 0 16px 28px;
+  padding: 0 4px 28px;
   color: #fff;
   background: #000;
 }
