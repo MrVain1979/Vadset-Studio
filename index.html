@@ -8,7 +8,7 @@
       content="Vadset Studio hjelper virksomheter med rådgivning, design, teknologi, innhold og SEO."
     />
     <title>VADSET.STUDIO - Digitale løsninger, design og rådgivning</title>
-    <link rel="stylesheet" href="./styles.css?v=vadset-8" />
+    <link rel="stylesheet" href="./styles.css?v=vadset-19" />
   </head>
   <body>
     <header class="topbar">
@@ -84,10 +84,6 @@
         <a class="text-link" href="#">Explore More</a>
       </section>
 
-      <section class="marquee reveal-block" aria-label="Vadset Studio">
-        <div>Vadset<span class="logo-dot">.</span>Studio<span class="copy-symbol">©</span></div>
-      </section>
-
       <section class="section partners reveal-block">
         <div class="section-label">
           <span>●</span>
@@ -113,33 +109,152 @@
           <h2>Tjenester</h2>
         </div>
 
-        <article class="service active">
-          <p class="service-number">01</p>
-          <div class="service-media">
-            <img src="https://framerusercontent.com/images/7haLnsXH6yiQ7F4y8jeLZSwKI.png?scale-down-to=512&width=1200&height=1000" alt="Vibrant Cocktail Art" />
-          </div>
-          <div class="service-copy">
-            <h3>Brand Identity</h3>
-            <p>
-              Brand identity at Vadset Studio focuses on clarity, consistency, and
-              lasting relevance. We craft visual systems that reflect purpose and
-              personality while staying flexible across platforms and touchpoints.
-            </p>
-            <ul>
-              <li>Visual identity systems</li>
-              <li>Typography selection</li>
-              <li>Color and material palettes</li>
-              <li>Logo refinement</li>
-              <li>Brand guidelines</li>
-              <li>Asset direction</li>
-            </ul>
-          </div>
-        </article>
+        <div class="service-accordion" data-accordion>
+          <article class="service-item is-open">
+            <button class="service-trigger" type="button" aria-expanded="true">
+              <span>01</span>
+              <strong>Design</strong>
+              <i aria-hidden="true"></i>
+            </button>
+            <div class="service-panel" aria-hidden="false">
+              <div class="service-media">
+                <img src="https://framerusercontent.com/images/7haLnsXH6yiQ7F4y8jeLZSwKI.png?scale-down-to=512&width=1200&height=1000" alt="Vibrant Cocktail Art" />
+              </div>
+              <div class="service-copy">
+                <h3>Design</h3>
+                <p>
+                  Vi utvikler visuelle uttrykk som gjør virksomheten tydeligere,
+                  mer gjenkjennelig og enklere å velge. Designet skal ikke bare
+                  se bra ut, men skape retning, tillit og flyt i hele opplevelsen.
+                </p>
+                <ul>
+                  <li>Visuell identitet</li>
+                  <li>Nettsidedesign</li>
+                  <li>Typografi og farger</li>
+                  <li>UI og komponenter</li>
+                  <li>Designsystem</li>
+                  <li>Retning for bildebruk</li>
+                </ul>
+              </div>
+            </div>
+          </article>
 
-        <div class="service-row"><span>02</span><strong>Website Design</strong></div>
-        <div class="service-row"><span>03</span><strong>Digital Systems</strong></div>
-        <div class="service-row"><span>04</span><strong>Development</strong></div>
-        <div class="service-row"><span>05</span><strong>Ongoing Support</strong></div>
+          <article class="service-item">
+            <button class="service-trigger" type="button" aria-expanded="false">
+              <span>02</span>
+              <strong>Markedsføring</strong>
+              <i aria-hidden="true"></i>
+            </button>
+            <div class="service-panel" aria-hidden="true">
+              <div class="service-media">
+                <img src="https://framerusercontent.com/images/Eb1j8iBuBV730l3ZiuZT0impo.png?scale-down-to=1024&width=1200&height=1000" alt="Dynamic Motion Blur" />
+              </div>
+              <div class="service-copy">
+                <h3>Markedsføring</h3>
+                <p>
+                  Vi hjelper med markedsføring som bygger synlighet over tid og
+                  gjør det enklere å forstå hva du tilbyr. Strategi, innhold og
+                  kampanjer kobles sammen til tydelige løp som kan måles.
+                </p>
+                <ul>
+                  <li>Digital strategi</li>
+                  <li>Kampanjestruktur</li>
+                  <li>SEO og synlighet</li>
+                  <li>Annonsekonsepter</li>
+                  <li>Landingssider</li>
+                  <li>Måling og forbedring</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-item">
+            <button class="service-trigger" type="button" aria-expanded="false">
+              <span>03</span>
+              <strong>Utvikling</strong>
+              <i aria-hidden="true"></i>
+            </button>
+            <div class="service-panel" aria-hidden="true">
+              <div class="service-media">
+                <img src="https://framerusercontent.com/images/vraLjICaUWiGEpHixJHkTTjk8E.png?scale-down-to=1024&width=1200&height=1000" alt="Majestic Mountain Above Clouds" />
+              </div>
+              <div class="service-copy">
+                <h3>Utvikling</h3>
+                <p>
+                  Vi bygger raske og robuste nettsider med ren struktur, god
+                  ytelse og fleksibilitet for videre arbeid. Løsningen skal være
+                  enkel å eie, enkel å publisere og trygg å videreutvikle.
+                </p>
+                <ul>
+                  <li>Front-end utvikling</li>
+                  <li>Vercel-klare nettsider</li>
+                  <li>Responsiv kode</li>
+                  <li>Teknisk SEO</li>
+                  <li>Ytelse og kvalitetssikring</li>
+                  <li>Integrasjoner ved behov</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-item">
+            <button class="service-trigger" type="button" aria-expanded="false">
+              <span>04</span>
+              <strong>Innhold</strong>
+              <i aria-hidden="true"></i>
+            </button>
+            <div class="service-panel" aria-hidden="true">
+              <div class="service-media">
+                <img src="https://framerusercontent.com/images/fAv6UkqytObV60sR2HQvB23bo.png?scale-down-to=1024&width=1200&height=1000" alt="Cozy Living Room Setup" />
+              </div>
+              <div class="service-copy">
+                <h3>Innhold</h3>
+                <p>
+                  Vi lager innhold som gjør budskapet tydeligere og siden mer
+                  levende. Tekst, struktur og fortelling må jobbe sammen, slik at
+                  målgruppen raskt forstår verdien av det du leverer.
+                </p>
+                <ul>
+                  <li>Nettsidetekster</li>
+                  <li>Konsept og budskap</li>
+                  <li>SEO-innhold</li>
+                  <li>Artikler og innsikt</li>
+                  <li>Innholdsstruktur</li>
+                  <li>Redaksjonell retning</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-item">
+            <button class="service-trigger" type="button" aria-expanded="false">
+              <span>05</span>
+              <strong>Foto/video</strong>
+              <i aria-hidden="true"></i>
+            </button>
+            <div class="service-panel" aria-hidden="true">
+              <div class="service-media">
+                <img src="https://framerusercontent.com/images/jgU3Xppf6mQ0qEemMtLOw4H4s.png?scale-down-to=1024&width=2048&height=1706" alt="Dynamic Fashion Pose" />
+              </div>
+              <div class="service-copy">
+                <h3>Foto/video</h3>
+                <p>
+                  Vi produserer og leder visuelt innhold som gir merkevaren et
+                  tydelig uttrykk på nettsider, kampanjer og sosiale flater. Målet
+                  er bilder og video som føles relevante, ekte og gjennomførte.
+                </p>
+                <ul>
+                  <li>Foto til nettside</li>
+                  <li>Videoinnhold</li>
+                  <li>Art direction</li>
+                  <li>SoMe-klipp</li>
+                  <li>Produkt- og miljøbilder</li>
+                  <li>Bildeutvalg og etterarbeid</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
       </section>
 
       <section class="section approach reveal-block">
@@ -208,6 +323,6 @@
       </nav>
       <p>All content © Vadset Studio 2025</p>
     </footer>
-    <script src="./script.js?v=vadset-2"></script>
+    <script src="./script.js?v=vadset-7"></script>
   </body>
 </html>
